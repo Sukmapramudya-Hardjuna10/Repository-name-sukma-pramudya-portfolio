@@ -12,7 +12,6 @@ const NAV_ITEMS = [
   { name: "Pendidikan", href: "/pendidikan" },
   { name: "Pengalaman Kerja", href: "/pengalaman-kerja" },
   { name: "Organisasi & Kegiatan", href: "/organisasi-kegiatan" },
-  { name: "Tentang Saya", href: "/tentang-saya" },
   { name: "Kontak", href: "/kontak" },
 ];
 
