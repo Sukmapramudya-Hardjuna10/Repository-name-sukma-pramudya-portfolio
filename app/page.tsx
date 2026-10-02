@@ -32,7 +32,7 @@ export default function Home() {
 
           {/* Deskripsi Singkat */}
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-600 sm:text-xl dark:text-zinc-400">
-            Web Developer &amp;  Antarmuka yang berfokus membangun aplikasi web modern, responsif, dan memberikan pengalaman digiDesainertal terbaik.
+            Mahasiswa Statistika dan Teknik Elektro yang tertarik pada pengembangan teknologi, analisis data, dan pembuatan solusi digital.
           </p>
 
           {/* Tombol Aksi */}
@@ -74,12 +74,12 @@ export default function Home() {
               <div className="flex items-center gap-3">
                 <span className="flex h-2.5 w-2.5 rounded-full bg-blue-600 dark:bg-blue-400"></span>
                 <h2 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-100">
-                  About Me
+                  Tentang Saya
                 </h2>
               </div>
 
               <p className="text-base leading-relaxed text-zinc-600 sm:text-lg dark:text-zinc-400">
-                Saya adalah seorang developer yang berdedikasi untuk menciptakan aplikasi web berkualitas tinggi, terstruktur rapi, dan mudah diakses. Berfokus pada perpaduan performa teknis dan estetika antarmuka modern, saya memiliki komitmen kuat dalam menghadirkan pengalaman pengguna yang mulus serta kode yang mudah dipelihara dan dikembangkan.
+                Saya adalah seseorang yang memiliki ketertarikan dalam pengembangan teknologi, analisis data, dan pembuatan solusi digital. Berfokus pada perpaduan antara pemikiran analitis, kemampuan teknis, dan kreativitas, saya memiliki komitmen untuk menghasilkan karya yang terstruktur, fungsional, dan mudah digunakan. Saya terus mengembangkan kemampuan di bidang Statistika dan Teknik Elektro serta menerapkannya melalui berbagai proyek dan pengalaman yang saya jalani.
               </p>
 
               <div className="mt-2 grid grid-cols-1 gap-4 border-t border-zinc-200/70 pt-6 sm:grid-cols-3 dark:border-zinc-800/70">
