@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="relative flex min-h-screen flex-col items-center overflow-x-hidden bg-transparent px-6 font-sans text-zinc-100 selection:bg-amber-500/20 selection:text-amber-200">
@@ -20,7 +22,7 @@ export default function Home() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
             </span>
-            Tersedia untuk proyek baru
+            Tersedia untuk peluang kerja baru
           </div>
 
           {/* Heading Utama: Nama */}
@@ -32,17 +34,17 @@ export default function Home() {
 
           {/* Deskripsi Singkat */}
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-600 sm:text-xl dark:text-zinc-400">
-            Mahasiswa Statistika dan Teknik Elektro yang tertarik pada pengembangan teknologi, analisis data, dan pembuatan solusi digital.
+            Mahasiswa Statistika yang tertarik pada analisis data, pengembangan teknologi, dan pembuatan solusi digital.
           </p>
 
           {/* Tombol Aksi */}
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-            <a
-              id="view-projects-btn"
-              href="/portfolio"
+            <Link
+              id="view-experience-btn"
+              href="/pengalaman-kerja"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-zinc-900 px-7 py-3.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-zinc-800 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
             >
-              <span>View Projects</span>
+              <span>Lihat Pengalaman Kerja</span>
               <svg
                 className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5"
                 fill="none"
@@ -52,15 +54,15 @@ export default function Home() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
-            </a>
+            </Link>
 
-            <a
+            <Link
               id="contact-me-btn"
-              href="/contact"
+              href="/kontak"
               className="inline-flex items-center justify-center rounded-full border border-zinc-300 bg-white/70 px-7 py-3.5 text-sm font-semibold text-zinc-800 shadow-sm backdrop-blur-sm transition-all duration-200 hover:border-zinc-400 hover:bg-zinc-100 hover:-translate-y-0.5 active:translate-y-0 dark:border-zinc-800 dark:bg-zinc-900/60 dark:text-zinc-200 dark:hover:border-zinc-700 dark:hover:bg-zinc-800/80"
             >
-              Contact Me
-            </a>
+              Hubungi Saya
+            </Link>
           </div>
         </section>
 
@@ -79,7 +81,7 @@ export default function Home() {
               </div>
 
               <p className="text-base leading-relaxed text-zinc-600 sm:text-lg dark:text-zinc-400">
-                Saya adalah seseorang yang memiliki ketertarikan dalam pengembangan teknologi, analisis data, dan pembuatan solusi digital. Berfokus pada perpaduan antara pemikiran analitis, kemampuan teknis, dan kreativitas, saya memiliki komitmen untuk menghasilkan karya yang terstruktur, fungsional, dan mudah digunakan. Saya terus mengembangkan kemampuan di bidang Statistika dan Teknik Elektro serta menerapkannya melalui berbagai proyek dan pengalaman yang saya jalani.
+                Saya adalah seseorang yang memiliki ketertarikan dalam analisis data, pengembangan teknologi, dan pembuatan solusi digital. Berfokus pada perpaduan antara pemikiran analitis, kemampuan teknis, dan kreativitas, saya memiliki komitmen untuk menghasilkan karya yang terstruktur, fungsional, dan mudah digunakan. Saya terus mengembangkan kemampuan di bidang Statistika serta menerapkannya melalui berbagai proyek dan pengalaman yang saya jalani.
               </p>
 
               <div className="mt-2 grid grid-cols-1 gap-4 border-t border-zinc-200/70 pt-6 sm:grid-cols-3 dark:border-zinc-800/70">

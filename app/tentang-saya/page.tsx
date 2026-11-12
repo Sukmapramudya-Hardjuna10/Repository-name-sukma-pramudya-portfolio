@@ -46,11 +46,11 @@ export default function TentangSayaPage() {
             </div>
 
             <p className="text-base sm:text-lg leading-relaxed text-zinc-300">
-              Saya adalah seorang profesional yang berdedikasi untuk menciptakan aplikasi dan sistem berkualitas tinggi, terstruktur rapi, dan mudah diakses. Berfokus pada perpaduan performa teknis, logika analisis, dan estetika antarmuka modern, saya memiliki komitmen kuat dalam menghadirkan pengalaman pengguna yang mulus serta kode yang mudah dipelihara dan dikembangkan.
+              Saya adalah seseorang yang memiliki ketertarikan dalam analisis data, pengembangan teknologi, dan pembuatan solusi digital. Berfokus pada perpaduan antara pemikiran analitis, kemampuan teknis, dan kreativitas, saya memiliki komitmen untuk menghasilkan karya yang terstruktur, fungsional, dan mudah digunakan. Saya terus mengembangkan kemampuan di bidang Statistika serta menerapkannya melalui berbagai proyek dan pengalaman yang saya jalani.
             </p>
 
             <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-400">
-              Dengan latar belakang studi yang kaya dan lintas disiplin mencakup ilmu sosial (Antropologi Sosial), ilmu kuantitatif (Statistika), hingga rekayasa teknologi (Teknik Elektro), saya mampu melihat tantangan dari berbagai sudut pandang: memahami kebutuhan manusia, memanfaatkan ketelitian data, dan menerapkan ketepatan teknis rekayasa.
+              Dengan latar belakang studi yang kaya dan lintas disiplin mencakup ilmu sosial (Antropologi Sosial) dan ilmu kuantitatif (Statistika), saya mampu melihat tantangan dari berbagai sudut pandang: memahami kebutuhan manusia dan memanfaatkan ketelitian analisis data.
             </p>
 
             {/* Metrik / Nilai Inti */}
@@ -78,7 +78,7 @@ export default function TentangSayaPage() {
                   Ketersediaan
                 </span>
                 <p className="mt-1 text-sm font-semibold text-zinc-200">
-                  Full-time / Freelance / Proyek
+                  Full-time / Freelance
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function TentangSayaPage() {
             <h2 className="text-xl font-bold tracking-tight text-white mb-4">
               Fondasi Keilmuan Multidisiplin
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm text-zinc-400">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-zinc-400">
               <div className="rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5">
                 <span className="font-semibold text-white block mb-1">Antropologi Sosial</span>
                 <p className="text-xs text-zinc-400 leading-relaxed">
@@ -102,12 +102,6 @@ export default function TentangSayaPage() {
                   Mengasah cara berpikir analitis, inferensi berbasis data, pemodelan kuantitatif, dan validitas hasil keputusan.
                 </p>
               </div>
-              <div className="rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5">
-                <span className="font-semibold text-white block mb-1">Teknik Elektro</span>
-                <p className="text-xs text-zinc-400 leading-relaxed">
-                  Menanamkan logika komputasi mendalam, pemahaman arsitektur sistem perangkat keras-lunak, dan pemecahan masalah teknis.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -115,10 +109,10 @@ export default function TentangSayaPage() {
         {/* Tombol Aksi */}
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="/proyek"
+            href="/pengalaman-kerja"
             className="inline-flex items-center gap-2 rounded-full bg-zinc-100 px-6 py-3 text-xs font-semibold text-zinc-950 shadow-sm transition-all hover:bg-white hover:-translate-y-0.5"
           >
-            <span>Eksplorasi Proyek Saya</span>
+            <span>Lihat Pengalaman Kerja</span>
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>

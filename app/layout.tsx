@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sukma Pramudya, S.Sos. | Profil Profesional & CV",
-  description: "Website profil profesional, CV, portofolio proyek, sertifikasi, dan rekam jejak karier Sukma Pramudya, S.Sos.",
+  description: "Website profil profesional, CV, sertifikasi, pendidikan, pengalaman kerja, dan rekam jejak karier Sukma Pramudya, S.Sos.",
 };
 
 export default function RootLayout({

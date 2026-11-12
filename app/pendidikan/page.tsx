@@ -30,12 +30,6 @@ const EDUCATION_DATA: EducationItem[] = [
     logo: "/images/ut.png",
     status: "Sedang ditempuh",
   },
-  {
-    degree: "S1 Teknik Elektro",
-    institution: "Universitas Muhammadiyah Purwokerto",
-    logo: "/images/ump.png",
-    status: "Sedang ditempuh",
-  },
 ];
 
 export default function PendidikanPage() {

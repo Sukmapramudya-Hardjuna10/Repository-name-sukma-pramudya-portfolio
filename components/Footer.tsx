@@ -15,28 +15,28 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-zinc-400 max-w-md leading-relaxed">
-              Platform profil profesional dan CV terpadu mencakup rekam jejak karier, sertifikasi, inisiatif proyek, serta latar belakang akademis.
+              Platform profil profesional dan CV terpadu mencakup rekam jejak karier, sertifikasi, pengalaman kerja, serta latar belakang akademis.
             </p>
           </div>
 
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-wider text-zinc-300 mb-3">
-              Karya &amp; Inisiatif
+              Profil &amp; Akademis
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/proyek" className="hover:text-zinc-100 transition-colors">
-                  Proyek
-                </Link>
-              </li>
-              <li>
-                <Link href="/bisnis" className="hover:text-zinc-100 transition-colors">
-                  Bisnis
+                <Link href="/" className="hover:text-zinc-100 transition-colors">
+                  Beranda
                 </Link>
               </li>
               <li>
                 <Link href="/sertifikat" className="hover:text-zinc-100 transition-colors">
                   Sertifikat
+                </Link>
+              </li>
+              <li>
+                <Link href="/pendidikan" className="hover:text-zinc-100 transition-colors">
+                  Pendidikan
                 </Link>
               </li>
               <li>
@@ -53,11 +53,6 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/pendidikan" className="hover:text-zinc-100 transition-colors">
-                  Pendidikan
-                </Link>
-              </li>
-              <li>
                 <Link href="/pengalaman-kerja" className="hover:text-zinc-100 transition-colors">
                   Pengalaman Kerja
                 </Link>
@@ -70,11 +65,6 @@ export default function Footer() {
               <li>
                 <Link href="/kontak" className="hover:text-zinc-100 transition-colors">
                   Kontak
-                </Link>
-              </li>
-              <li>
-                <Link href="/" className="hover:text-zinc-100 transition-colors">
-                  Beranda
                 </Link>
               </li>
             </ul>

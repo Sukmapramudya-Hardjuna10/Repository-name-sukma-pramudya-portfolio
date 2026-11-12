@@ -27,8 +27,8 @@ interface MagangExperience {
 const EXPERIENCES_DATA: MagangExperience[] = [
   {
     id: "rsud-goeteng",
-    title: "Magang — Bagian Informasi dan APPM",
-    role: "Magang — Bagian Informasi dan APPM",
+    title: "Staf Informasi dan APPM",
+    role: "Staf Informasi dan APPM",
     institution: "RSUD dr. R. Goeteng Taroenadibrata Purbalingga",
     period: "16 Januari – 23 Maret 2026",
     location: "Purbalingga, Jawa Tengah",

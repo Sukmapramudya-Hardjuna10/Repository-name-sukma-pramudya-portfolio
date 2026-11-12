@@ -6,8 +6,6 @@ import { useState, useEffect } from "react";
 
 const NAV_ITEMS = [
   { name: "Beranda", href: "/" },
-  { name: "Proyek", href: "/proyek" },
-  { name: "Bisnis", href: "/bisnis" },
   { name: "Sertifikat", href: "/sertifikat" },
   { name: "Pendidikan", href: "/pendidikan" },
   { name: "Pengalaman Kerja", href: "/pengalaman-kerja" },
